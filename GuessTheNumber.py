@@ -34,7 +34,7 @@ def getting_clues(guess,value):
     elif guess < value:
         print('the number is higher!')
 
-def main():
+def play_game():
     start, end, value = give_range()
     guess = None
     _count = 0
@@ -46,11 +46,16 @@ def main():
 
     print(f'''Congrats, The number you're guessing is correct after {_count} times guess''')
 
-
-if __name__ == '__main__':
+def main():
     run = True
+
     while run:
-        main()
+        play_game()
         _run = input('Again? (y/n)     ')
         if _run != 'y':
             run = False
+
+
+
+if __name__ == '__main__':
+    main()
