@@ -2,7 +2,7 @@
 GUESS THE NUMBER MULTIPLAYER
 Created on Mei 25, 2022
 
-@author: Yogaswara
+@author: sh.yogaswara@gmail.com
 '''
 
 
